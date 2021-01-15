@@ -1,0 +1,15 @@
+div {
+    height: 10em;
+    width: 20em;
+    background-color: blueviolet;
+}
+@keyframes disappear {
+    50% {
+        background-color: white;
+    }
+}
+.disappear{
+    animation-name: disappear;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
