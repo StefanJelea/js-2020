@@ -1,8 +1,19 @@
+<<<<<<< HEAD
 * {
+=======
+*{
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+<<<<<<< HEAD
 .hidden {
     display: none;
 }
+=======
+
+.hidden{
+    display: none;
+}
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb

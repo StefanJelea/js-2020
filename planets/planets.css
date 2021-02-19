@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .alert {
     color: red;
     font-weight: bold;
@@ -6,3 +7,13 @@ p {
     cursor: pointer;
     user-select: none;
 }
+=======
+.alert{
+    color: red;
+    font-weight: bold;
+}
+p{
+    cursor: pointer;
+    user-select: none;
+}
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb

@@ -5,6 +5,7 @@ body {
 }
 @keyframes bubble {
     to {
+<<<<<<< HEAD
         transform: translateY(-5vh) scale(2);
     }
 }
@@ -26,21 +27,57 @@ body {
     border-style: solid;
     border-radius: 50%;
     transform: translateY(105vh);
+=======
+        transform:translateY(-5vh) scale(2);
+    }
+}
+@keyframes flow {
+    25% {
+        transform: rotate(3deg) translate(0.5em, 0.5em);
+    }
+    50%{
+        transform: rotate(0deg) translate(0em, 1em);
+    }
+    75%{
+        transform: rotate(-3deg) translate(-0.5em, 0.5em);
+    }
+}
+.bubble{
+    position: absolute;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    transform: translateY(100vh);
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb
     animation-name: bubble;
     animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
+<<<<<<< HEAD
 img {
+=======
+img{
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb
     display: block;
     position: absolute;
     top: 20vh;
     left: 20vw;
+<<<<<<< HEAD
     height: 50vh;
     z-index: 1;
     animation-name: float;
+=======
+    z-index: 1;
+    animation-name: flow;
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb
     animation-duration: 8s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
     animation-timing-function: linear;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb

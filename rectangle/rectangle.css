@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +14,27 @@ div {
     height: 10em;
     width: 20em;
     background-color: lightseagreen;
+=======
+div {
+    height: 10em;
+    width: 20em;
+    background-color: blueviolet;
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb
 }
 @keyframes disappear {
     50% {
         background-color: white;
     }
 }
+<<<<<<< HEAD
 .disappear {
     animation-name: disappear;
     animation-duration: 2s;
     animation-fill-mode: both;
+=======
+.disappear{
+    animation-name: disappear;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+>>>>>>> f62828c58f8c7aa63780b7cc331471e7ab3b73fb
 }
